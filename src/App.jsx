@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import InputBox from './components/InputBox.jsx'
 import useCurrencyInfo from './hooks/useCurrencyInfo.js'
-
+import mybg from '/home/oem/bootcamp_react/06currencyConverter/mybg.jpg'
 
 function App() {
 
@@ -29,7 +29,8 @@ function App() {
     <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-            backgroundImage: `url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
+            backgroundImage: `url(${mybg})`,
+            // backgroundImage: `url('https://images.pexels.com/photos/6963017/pexels-photo-6963017.jpeg?auto=compress&cs=tinysrgb&w=400')`,
         }}
     >
         <div className="w-full">
